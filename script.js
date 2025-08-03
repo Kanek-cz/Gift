@@ -316,7 +316,7 @@ class EncryptedMessage {
             }
 
             if (currentText !== this.originalText) {
-                setTimeout(decryptChar, isArtRevealed ? 4 : 1);
+                setTimeout(decryptChar, isArtRevealed ? 3 : 1);
             }
         };
 
