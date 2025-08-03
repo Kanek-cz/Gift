@@ -255,7 +255,7 @@ class EncryptedMessage {
 
     randomizeText() {
         let randomizeCount = 0;
-        const maxRandomizations = 70;
+        const maxRandomizations = 200;
         
         const randomizeInterval = setInterval(() => {
             if (randomizeCount >= maxRandomizations) {
