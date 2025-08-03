@@ -39,7 +39,7 @@ body {
     word-wrap: break-word;
     max-height: none;
     overflow-y: visible;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .cursor {
@@ -124,7 +124,12 @@ html {
         font-size: 12px;
         padding: 10px;
     }
-    
+    #menu {
+        text-align: center;
+        margin-left: 0;
+        font-size: 10px;
+        line-height: 1.2;
+    }
     .cursor {
         width: 8px;
         height: 16px;
