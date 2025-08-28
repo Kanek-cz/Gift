@@ -256,7 +256,7 @@ class EncryptedMessage {
 
     randomizeText() {
         let randomizeCount = 0;
-        const maxRandomizations = 50;
+        const maxRandomizations = 30;
 
         const randomizeInterval = setInterval(() => {
             if (randomizeCount >= maxRandomizations) {
@@ -317,7 +317,7 @@ class EncryptedMessage {
             }
 
             if (currentText !== this.originalText) {
-                setTimeout(decryptChar, isArtRevealed ? 2 : 0);
+                setTimeout(decryptChar, isArtRevealed ? 3 : 1);
             }
         };
 
