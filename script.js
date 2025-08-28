@@ -183,7 +183,8 @@ class EncryptedMessage {
     displayCharacter(menuText, currentIndex = 0, decryptedText = '') {
         if (currentIndex >= menuText.length) {
             this.showDecryptPrompt(decryptedText);
-            return;
+          return;
+          
         }
 
         this.menuElement.innerHTML = decryptedText + '<span class="cursor"></span>';
@@ -256,7 +257,7 @@ class EncryptedMessage {
     randomizeText() {
         let randomizeCount = 0;
         const maxRandomizations = 50;
-        
+
         const randomizeInterval = setInterval(() => {
             if (randomizeCount >= maxRandomizations) {
                 clearInterval(randomizeInterval);
@@ -316,7 +317,7 @@ class EncryptedMessage {
             }
 
             if (currentText !== this.originalText) {
-                setTimeout(decryptChar, isArtRevealed ? 3 : 1);
+                setTimeout(decryptChar, isArtRevealed ? 2 : 0);
             }
         };
 
