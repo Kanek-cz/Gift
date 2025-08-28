@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #8a0c0c;
+    --primary-color: #a21786;
     --bg-color: black;
     --font-size: 16px;
     --cursor-width: 10px;
     --cursor-height: 20px;
     --prompt-color: #ffff00;
     --scrollbar-track: #222;
-    --scrollbar-thumb: #D4A017;
+    --scrollbar-thumb: #b713e9;
     --scrollbar-thumb-hover: #a0f0f7;
 }
 
@@ -39,7 +39,7 @@ body {
     word-wrap: break-word;
     max-height: none;
     overflow-y: visible;
-    margin-left: 40px;
+    margin-left: 250px;
 }
 
 .cursor {
@@ -124,12 +124,7 @@ html {
         font-size: 12px;
         padding: 10px;
     }
-    #menu {
-        text-align: center;
-        margin-left: 0;
-        font-size: 10px;
-        line-height: 1.2;
-    }
+    
     .cursor {
         width: 8px;
         height: 16px;
